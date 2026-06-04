@@ -1,0 +1,27 @@
+{
+  "name": "@theaiinc/veil-presidio",
+  "version": "0.1.1",
+  "description": "Microsoft Presidio-backed PII detector for Veil (default provider).",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist"],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@theaiinc/veil": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

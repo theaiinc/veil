@@ -1,0 +1,10 @@
+export * from "./types/index.js";
+export { VeilRegistry } from "./registry/registry.js";
+export { createDocument } from "./document.js";
+export { runPipeline, type RunResult } from "./pipeline/pipeline.js";
+export { mergeEntitiesByConfidence } from "./pipeline/merge.js";
+export * from "./builtin/index.js";
+export { PROFILES, isProfileName, type ProfileName } from "./profiles/profiles.js";
+export { Veil, veil } from "./veil.js";
+export { createId } from "./util/id.js";
+export { audit } from "./util/audit.js";
