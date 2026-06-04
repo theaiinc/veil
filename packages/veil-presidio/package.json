@@ -3,6 +3,13 @@
   "version": "0.1.1",
   "description": "Microsoft Presidio-backed PII detector for Veil (default provider).",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theaiinc/veil.git",
+    "directory": "packages/veil-presidio"
+  },
+  "homepage": "https://github.com/theaiinc/veil/tree/main/packages/veil-presidio#readme",
+  "bugs": "https://github.com/theaiinc/veil/issues",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

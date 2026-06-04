@@ -3,6 +3,13 @@
   "version": "0.1.1",
   "description": "Provider-agnostic data protection, classification, abstraction, and rehydration framework for AI-enabled applications.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theaiinc/veil.git",
+    "directory": "packages/veil"
+  },
+  "homepage": "https://github.com/theaiinc/veil#readme",
+  "bugs": "https://github.com/theaiinc/veil/issues",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

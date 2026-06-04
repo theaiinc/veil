@@ -3,6 +3,13 @@
   "version": "0.1.1",
   "description": "Regex-based PII and secret detector for Veil (email, phone, URL, credit card, API keys).",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theaiinc/veil.git",
+    "directory": "packages/veil-regex"
+  },
+  "homepage": "https://github.com/theaiinc/veil/tree/main/packages/veil-regex#readme",
+  "bugs": "https://github.com/theaiinc/veil/issues",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
